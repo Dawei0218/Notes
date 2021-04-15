@@ -61,6 +61,6 @@ int accept(int listensockfd, struct sockaddr *cliaddr, socklen_t *addrlen)
 ### connect
 
 ```c
-int connect(int sockfd, const struct sockaddr *servaddr, socklen_t addrlen)
+int connect(int sockfd, const struct sockaddr *servaddr, socklen_t addrlen)	
 ```
 
