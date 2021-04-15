@@ -1,4 +1,4 @@
-# socket函数
+# socket连接函数
 
 ### socket
 

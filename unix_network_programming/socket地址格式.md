@@ -67,8 +67,6 @@ struct sockaddr_in {
 };
 ```
 
-
-
 ------
 
 ### IPv6地址格式
