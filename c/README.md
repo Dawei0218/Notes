@@ -4,6 +4,8 @@
 
 * C程序设计语言
 * C Primer Plus
+* C和指针
+* C专家编程
 
 # Summary
 
