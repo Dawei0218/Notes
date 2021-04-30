@@ -6,7 +6,6 @@
 
 # Summary
 
-* [overview](overview.md)
 * [面向对象](面向对象.md)
 * [设计原则](设计原则.md)
 * [单例模式](单例模式.md)
