@@ -1,6 +1,4 @@
-# 配置
-
-### 最小配置
+# 初次运行git配置
 
 ```shell
 # local 对某个仓库有效
@@ -13,4 +11,3 @@ git config --global user.email 'your_email'
 # 执行local只能在一个仓库里面
 git config --list --global
 ```
-
