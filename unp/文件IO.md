@@ -24,7 +24,6 @@ STDERR_FILENO;
 // O_SYNC 每次write等待物理I/O完成，包括write操作引起的文件属性更新
 int open(const char *path, int oflags, ...);
 int openat(int fd, const char *path, int oflag, ...);
-
 ```
 
 ------
