@@ -10,7 +10,7 @@
 * [Design Patterns](design_patterns/README.md)
 * [Linux Operating System](linux/README.md)
 * [Unix Network Programming](unix_network_programming/README.md)
-* [Unp](unp/README.md)
+* [APUE](apue/README.md)
 * [Git](git/README.md)
 * [MySQL](mysql/README.md)
 
