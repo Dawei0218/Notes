@@ -14,9 +14,3 @@
 * [Git](git/README.md)
 * [MySQL](mysql/README.md)
 
-
-
-
-
-
-
