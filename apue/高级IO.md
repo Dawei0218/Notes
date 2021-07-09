@@ -24,6 +24,7 @@
 // maxfdp1设置为最大的fd+1
 
 // 超时了会把所有描述符集都会置为0，需要重新设置
+// 每次处理完了都需要重新设置fds，都置为0
 int select(int maxfdp1,
           fd_set *restrict readfds,
           fd_set *restrict writefds,
@@ -33,7 +34,7 @@ int select(int maxfdp1,
 int FD_ISSET(int fd, fd_set *fdset); // 如果描述符在集合里，返回非0值。否则返回0
 void FD_CLR(int fd, fd_set *fdset); // 开启一位
 void FD_SET(int fd, fd_set *fdset); // 清除一位
-void FD_ZERO(fd_set *fdset); // fdset所有位置0。声明了一个fd_set之后必须用此函数置零
+void FD_ZERO(fd_set *fdset); // fdset所有位置设置为0。声明了一个fd_set之后必须用此函数置零
 ```
 
 ------
