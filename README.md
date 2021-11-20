@@ -4,5 +4,5 @@
 
 # Summary
 
-* [C/C++](c_cpp/README.md)
+* [cpp](cpp/README.md)
 * [Design Patterns](design_patterns/README.md)
