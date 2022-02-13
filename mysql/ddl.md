@@ -3,6 +3,8 @@
 ### 数据库基本操作
 
 ```sql
+# SHOW VARIABLES LIKE 'datadir'; 查看数据目录
+
 # 数据库操作
 SHOW DATABASE;
 CREATE DATABASE test;
