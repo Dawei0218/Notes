@@ -1,7 +1,3 @@
-# Notes
-
-冲！！！
-
 # Summary
 
 * [C++](cpp/README.md)
