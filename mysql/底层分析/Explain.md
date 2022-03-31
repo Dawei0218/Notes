@@ -59,8 +59,7 @@
 | No tables used          | 没有from子句时                                           |
 | lmpossible WHERE        | where子句永远为false时，比如 1 != 1                      |
 | No matching min/max row | 查询列表处有min/max函数，但是没有满足where子句的搜索条件 |
-| Using Index             | 使用覆盖索引                                             |
+| Using Index             | 使用覆盖索引执行查询                                     |
 | Using index condition   | 使用了索引下推                                           |
 | Using where             | 需要在server层进行判断                                   |
-| index                   | 可以使用索引覆盖，但需要扫描全部的所有记录时             |
 | all                     | 全表扫描                                                 |
