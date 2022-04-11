@@ -1,7 +1,3 @@
-# Linux C
-
-Linux系统编程
-
 # Summary
 
 * [文件I/O](文件IO.md)
@@ -13,9 +9,8 @@ Linux系统编程
 * [线程同步](线程同步.md)
 * [线程控制](线程控制.md)
 * [高级I/O](高级IO.md)
-* [TIME_WAIT](TIME_WAIT.md)
 * [socket函数](socket函数.md)
+* [socket设置](socket设置.md)
 * [关闭连接](关闭连接.md)
 * [Keep-Alive和心跳](Keep_Alive和心跳.md)
-* [重用socket](重用socket.md)
-
+* [TIME_WAIT](TIME_WAIT.md)
